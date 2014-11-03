@@ -60,8 +60,9 @@ html {
     transition: all 0.4s;
     margin-right: 4px;
     cursor: pointer;
+    font-size: 16px;
   }
-  /* line 45, ../../scss/layout.scss */
+  /* line 46, ../../scss/layout.scss */
   #menu_wrapper ul li.active, #menu_wrapper ul li:hover {
     background: white;
     color: #98b709;
@@ -69,7 +70,7 @@ html {
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 55, ../../scss/layout.scss */
+  /* line 56, ../../scss/layout.scss */
   #menu_wrapper ul {
     overflow: hidden;
     text-align: center;
@@ -77,20 +78,21 @@ html {
     width: 100%;
     top: 16px;
   }
-  /* line 61, ../../scss/layout.scss */
+  /* line 62, ../../scss/layout.scss */
   #menu_wrapper ul li {
     display: inline-block;
     margin: 0px 10px;
     color: #98b709;
     cursor: pointer;
+    font-size: 14px;
   }
-  /* line 67, ../../scss/layout.scss */
+  /* line 69, ../../scss/layout.scss */
   #menu_wrapper ul li:hover {
     color: #2d393f;
   }
 }
 
-/* line 77, ../../scss/layout.scss */
+/* line 79, ../../scss/layout.scss */
 #inner_wrapper {
   width: 100%;
   min-height: 500px;
@@ -98,13 +100,13 @@ html {
   padding: 50px;
 }
 
-/* line 84, ../../scss/layout.scss */
+/* line 86, ../../scss/layout.scss */
 .vlign {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 89, ../../scss/layout.scss */
+/* line 91, ../../scss/layout.scss */
 .cf {
   clear: both;
 }
