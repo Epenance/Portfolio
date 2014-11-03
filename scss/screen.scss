@@ -5,12 +5,9 @@
 
 @import "compass/reset";
 @import "layout";
+@import "frontpage";
 @import "vars";
 
-
-$icons-sprite-dimensions: true;
-@import "icons/*.png";
-@include all-icons-sprites;
 
 * {
   @include borderbox;

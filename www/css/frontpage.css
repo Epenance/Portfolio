@@ -1,0 +1,113 @@
+/* line 3, ../../scss/frontpage.scss */
+#top_content_wrapper {
+  width: 100%;
+}
+/* line 7, ../../scss/frontpage.scss */
+#top_content_wrapper #profile_pic {
+  float: left;
+  width: 270px;
+  height: 270px;
+  background: url(../img/martin.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media screen and (max-width: 750px) {
+  /* line 7, ../../scss/frontpage.scss */
+  #top_content_wrapper #profile_pic {
+    float: none;
+    width: 100%;
+    margin: 0px auto 20px;
+  }
+}
+/* line 24, ../../scss/frontpage.scss */
+#top_content_wrapper #desc_wrapper {
+  width: calc(100% - 270px);
+  height: 270px;
+  float: left;
+}
+@media screen and (max-width: 750px) {
+  /* line 24, ../../scss/frontpage.scss */
+  #top_content_wrapper #desc_wrapper {
+    float: none;
+    width: 100%;
+    margin: 0px auto 20px;
+    height: auto;
+  }
+}
+/* line 36, ../../scss/frontpage.scss */
+#top_content_wrapper #desc_wrapper #upper_desc {
+  width: 100%;
+  height: 140px;
+  background: #2d393f;
+  display: table;
+  position: relative;
+}
+/* line 43, ../../scss/frontpage.scss */
+#top_content_wrapper #desc_wrapper #upper_desc h1 {
+  margin-left: 50px;
+  font-size: 40px;
+  color: #f4f5f5;
+  font-weight: normal;
+}
+@media screen and (min-width: 930px) {
+  /* line 43, ../../scss/frontpage.scss */
+  #top_content_wrapper #desc_wrapper #upper_desc h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 43, ../../scss/frontpage.scss */
+  #top_content_wrapper #desc_wrapper #upper_desc h1 {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+}
+/* line 60, ../../scss/frontpage.scss */
+#top_content_wrapper #desc_wrapper #upper_desc #job_title {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: #98b709;
+  padding: 5px 15px;
+  color: white;
+}
+/* line 70, ../../scss/frontpage.scss */
+#top_content_wrapper #desc_wrapper #lower_desc {
+  width: 100%;
+  height: 130px;
+  background: #f4f5f5;
+  display: table;
+  padding: 0px 50px;
+}
+@media screen and (max-width: 700px) {
+  /* line 70, ../../scss/frontpage.scss */
+  #top_content_wrapper #desc_wrapper #lower_desc {
+    height: auto;
+    padding: 20px 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 70, ../../scss/frontpage.scss */
+  #top_content_wrapper #desc_wrapper #lower_desc {
+    padding: 20px 20px;
+  }
+}
+/* line 87, ../../scss/frontpage.scss */
+#top_content_wrapper #desc_wrapper #lower_desc .content_container {
+  font-family: "Titillium Web", sans-serif;
+}
+/* line 90, ../../scss/frontpage.scss */
+#top_content_wrapper #desc_wrapper #lower_desc .content_container h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #98b709;
+  margin-bottom: 5px;
+}
+/* line 97, ../../scss/frontpage.scss */
+#top_content_wrapper #desc_wrapper #lower_desc .content_container p {
+  font-size: 14px;
+  line-height: 18px;
+}

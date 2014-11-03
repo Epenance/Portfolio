@@ -6,6 +6,19 @@
 $main_color: #98b709;
 $second_color: #2d393f;
 $backdrop_color: #ffffff;
+$second_backdrop: #f4f5f5;
+
+
+$main_font: 'Patua One';
+$second_font: 'Titillium Web', sans-serif;
+
+$break-big: 960px;
+$break-larger:930px;
+$break-large:700px;
+$break-semi-large:750px;
+$break-medium:600px;
+$break-small:480px;
+$break-smaller:400px;
 
 @mixin trans {
 	-webkit-transition: all 0.4s;
